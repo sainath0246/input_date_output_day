@@ -36,7 +36,7 @@ while Day>31:
 Month=input("Enter the month in words: ")
 #Determine the month index
 for element in month:
-  if element[:2].lower()==Month[:2].lower():
+  if element[:3].lower()==Month[:3].lower():
     # print(element)
     element_index=month.index(element)+1
     break
